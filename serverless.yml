@@ -9,6 +9,7 @@ provider:
 functions:
   check:
     handler: index.check
+    description: generate RSS feed from Tokyo Marathon web-site news
     events:
       - http:
           path: rss
